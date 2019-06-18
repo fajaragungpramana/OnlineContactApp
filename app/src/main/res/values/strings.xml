@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Online Contact</string>
+    <string name="contact">Contact</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="done">Done</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="detail_contact">Detail Contact</string>
+    <string name="delete">Delete</string>
+    <string name="input_a_new_name">Input a new Name</string>
+    <string name="input_a_new_phone">Input a new Phone</string>
+    <string name="update_contact">Update Contact</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="delete_msg">Are you sure you want to delete this contact?</string>
+</resources>

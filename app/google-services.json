@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "120990857951",
+    "firebase_url": "https://online-contact.firebaseio.com",
+    "project_id": "online-contact",
+    "storage_bucket": "online-contact.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120990857951:android:f03d97687ce74a86",
+        "android_client_info": {
+          "package_name": "com.mengsoftstudio.android.onlinecontact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120990857951-gondogcjgk9d2gl9qbb0j4a3iq29cbcf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mengsoftstudio.android.onlinecontact",
+            "certificate_hash": "bb136742ba5cdafad3ae4f38611b3b64e5a358fa"
+          }
+        },
+        {
+          "client_id": "120990857951-k6vsogp14kpl00g0uc3lt15k4akp1a55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDst_atWeugHiHF7DuiV2qLNLYazZfIcQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120990857951-k6vsogp14kpl00g0uc3lt15k4akp1a55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

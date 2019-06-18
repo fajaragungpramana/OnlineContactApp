@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mengsoftstudio.android.onlinecontact">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Main -->
+        <activity
+            android:name=".features.contact.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Add Contact -->
+        <activity
+            android:name=".features.contact.add.AddContactActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".features.contact.MainActivity" />
+
+        <!-- Detail Contact -->
+        <activity
+            android:name=".features.contact.detail.DetailContactActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".features.contact.MainActivity" />
+
+    </application>
+
+</manifest>
